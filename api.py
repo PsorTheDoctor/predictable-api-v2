@@ -25,8 +25,8 @@ def create_api(app):
     api.add_resource(FuturePriceList, '/future-prices/<string:currency>')
     api.add_resource(FuturePrice, '/future-prices/<string:currency>&<string:date>')
 
-    api.add_resource(EntryList, '/entries-list/<integer:qty>')
-    api.add_resource(Entry, '/entries/<integer:id>')
+    api.add_resource(EntryList, '/entries-list/<int:qty>')
+    api.add_resource(Entry, '/entries/<int:id>')
 
     api.add_resource(InstantMailService, '/mail/<string:recipient>')
     api.add_resource(AuthMailService, '/auth/<string:recipient>')
