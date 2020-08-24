@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba11f303-bfda-4d2c-8272-29839fd7a9c7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -409,7 +408,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598272340490</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="News api launched">
+      <created>1598273221090</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1598273221090</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TodoView">
@@ -460,10 +466,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="451" y="210" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598208060792" />
-    <state x="532" y="95" width="912" height="915" key="CommitChangelistDialog2" timestamp="1598272340428">
+    <state x="532" y="95" width="912" height="915" key="CommitChangelistDialog2" timestamp="1598273221025">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="532" y="95" width="912" height="915" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1598272340428" />
+    <state x="532" y="95" width="912" height="915" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1598273221025" />
     <state x="776" y="323" width="424" height="484" key="FileChooserDialogImpl" timestamp="1598208046658">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -488,10 +494,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="627" y="210" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1598272334474" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1598272345683">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1598273227183">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1598272345683" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1598273227183" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
