@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba11f303-bfda-4d2c-8272-29839fd7a9c7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/predictable-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/predictable-api.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/entries.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/news_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/entry.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/temp.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/utils/google_news.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/google_news.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +55,7 @@
       <recent name="D:\DeepLearning\predictable-api\models" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.app(2)">
+  <component name="RunManager" selected="Python.google_news">
     <configuration name="app(2)" type="PythonConfigurationType" factoryName="Python">
       <module name="predictable-api" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -87,6 +90,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/coin_gecko.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="google_news" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="predictable-api" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/google_news.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -164,14 +188,15 @@
       <item itemvalue="Python.main (1)" />
       <item itemvalue="Python.coin_gecko" />
       <item itemvalue="Python.run" />
+      <item itemvalue="Python.google_news" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.google_news" />
         <item itemvalue="Python.run" />
         <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.coin_gecko" />
         <item itemvalue="Python.main" />
-        <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
   </component>
@@ -416,26 +441,26 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="323" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1598208046658" />
-    <state width="1830" height="278" key="GridCell.Tab.0.bottom" timestamp="1598208289720">
+    <state width="1830" height="277" key="GridCell.Tab.0.bottom" timestamp="1598268485635">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="278" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598208289720" />
-    <state width="1830" height="278" key="GridCell.Tab.0.center" timestamp="1598208289719">
+    <state width="1830" height="277" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598268485635" />
+    <state width="1830" height="277" key="GridCell.Tab.0.center" timestamp="1598268485634">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="278" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598208289719" />
-    <state width="1830" height="278" key="GridCell.Tab.0.left" timestamp="1598208289719">
+    <state width="1830" height="277" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598268485634" />
+    <state width="1830" height="277" key="GridCell.Tab.0.left" timestamp="1598268485634">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="278" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598208289719" />
-    <state width="1830" height="278" key="GridCell.Tab.0.right" timestamp="1598208289720">
+    <state width="1830" height="277" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598268485634" />
+    <state width="1830" height="277" key="GridCell.Tab.0.right" timestamp="1598268485635">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="278" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598208289720" />
-    <state x="482" y="187" key="SettingsEditor" timestamp="1598207977154">
+    <state width="1830" height="277" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598268485635" />
+    <state x="482" y="187" key="SettingsEditor" timestamp="1598268479103">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1598207977154" />
+    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1598268479103" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -13,7 +13,5 @@ Base.query = db_session.query_property()
 def init_db():
     import models.subscriber
     import models.past_price
+    import models.entry
     Base.metadata.create_all(bind=engine)
-
-
-
