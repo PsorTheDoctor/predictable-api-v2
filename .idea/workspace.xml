@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba11f303-bfda-4d2c-8272-29839fd7a9c7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/entries.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/db.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/news_service.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/entry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/temp.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/utils/google_news.py" beforeDir="false" afterPath="$PROJECT_DIR$/utils/google_news.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -387,7 +381,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597924913322</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="News api launched">
+      <created>1598271174848</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1598271174848</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TodoView">
@@ -430,37 +431,46 @@
     <MESSAGE value="Add setup.cfg" />
     <MESSAGE value="gunicorn" />
     <MESSAGE value="news scrapper added" />
-    <option name="LAST_COMMIT_MESSAGE" value="news scrapper added" />
+    <MESSAGE value="News api launched" />
+    <option name="LAST_COMMIT_MESSAGE" value="News api launched" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="210" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598208060792">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="451" y="210" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1598208060792" />
+    <state x="532" y="95" width="912" height="915" key="CommitChangelistDialog2" timestamp="1598271174735">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="532" y="95" width="912" height="915" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1598271174735" />
     <state x="776" y="323" width="424" height="484" key="FileChooserDialogImpl" timestamp="1598208046658">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="323" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1598208046658" />
-    <state width="1830" height="277" key="GridCell.Tab.0.bottom" timestamp="1598268485635">
+    <state width="1830" height="459" key="GridCell.Tab.0.bottom" timestamp="1598271661263">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="277" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598268485635" />
-    <state width="1830" height="277" key="GridCell.Tab.0.center" timestamp="1598268485634">
+    <state width="1830" height="459" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598271661263" />
+    <state width="1830" height="459" key="GridCell.Tab.0.center" timestamp="1598271661262">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="277" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598268485634" />
-    <state width="1830" height="277" key="GridCell.Tab.0.left" timestamp="1598268485634">
+    <state width="1830" height="459" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598271661262" />
+    <state width="1830" height="459" key="GridCell.Tab.0.left" timestamp="1598271661262">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="277" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598268485634" />
-    <state width="1830" height="277" key="GridCell.Tab.0.right" timestamp="1598268485635">
+    <state width="1830" height="459" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598271661262" />
+    <state width="1830" height="459" key="GridCell.Tab.0.right" timestamp="1598271661263">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="277" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598268485635" />
-    <state x="482" y="187" key="SettingsEditor" timestamp="1598268479103">
+    <state width="1830" height="459" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598271661263" />
+    <state x="627" y="210" key="SettingsEditor" timestamp="1598271979018">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="482" y="187" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1598268479103" />
+    <state x="627" y="210" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1598271979018" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1598271668267">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1598271668267" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
