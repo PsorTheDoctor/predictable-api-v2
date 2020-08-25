@@ -25,6 +25,12 @@ class Entry(Resource):
 class EntryList(Resource):
     @marshal_with(resource_fields)
     def get(self, qty):
+        # Firstly, delete old entries
+        while EntryModel.query.first():
+            entry = EntryModel.query.first()
+            db_session.delete(entry)
+            db_session.commit()
+
         # Create some new entries for every method call
         for idx in range(qty):
             header = get_header(idx)
@@ -34,4 +40,4 @@ class EntryList(Resource):
             db_session.add(entry)
             db_session.commit()
 
-        return EntryModel.query.all()
+        return EntryModel.query.limit(10).all()
