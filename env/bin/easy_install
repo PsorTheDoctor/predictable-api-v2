@@ -1,4 +1,4 @@
-#!/home/hp/heroku/nowerepo/predictable-api/env/bin/python3
+#!/home/hp/heroku/nowerepo/predictable-api/env/bin/python
 
 # -*- coding: utf-8 -*-
 import re
