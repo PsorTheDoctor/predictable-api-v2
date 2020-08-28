@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba11f303-bfda-4d2c-8272-29839fd7a9c7" name="Default Changelist" comment="sth">
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/future_prices.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/future_prices.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +54,7 @@
       <recent name="D:\DeepLearning\predictable-api\models" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.machine_learning">
+  <component name="RunManager" selected="Python.app(2)">
     <configuration name="app(2)" type="PythonConfigurationType" factoryName="Python">
       <module name="predictable-api" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -180,11 +183,11 @@
     </configuration>
     <list>
       <item itemvalue="Python.app(2)" />
-      <item itemvalue="Python.main (1)" />
-      <item itemvalue="Python.run" />
       <item itemvalue="Python.google_news" />
       <item itemvalue="Python.machine_learning" />
+      <item itemvalue="Python.main (1)" />
       <item itemvalue="Python.ml" />
+      <item itemvalue="Python.run" />
     </list>
     <recent_temporary>
       <list>
@@ -482,22 +485,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="323" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1598208046658" />
-    <state width="1830" height="358" key="GridCell.Tab.0.bottom" timestamp="1598571558525">
+    <state width="1830" height="125" key="GridCell.Tab.0.bottom" timestamp="1598574774922">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="358" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598571558525" />
-    <state width="1830" height="358" key="GridCell.Tab.0.center" timestamp="1598571558524">
+    <state width="1830" height="125" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1598574774922" />
+    <state width="1830" height="125" key="GridCell.Tab.0.center" timestamp="1598574774922">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="358" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598571558524" />
-    <state width="1830" height="358" key="GridCell.Tab.0.left" timestamp="1598571558524">
+    <state width="1830" height="125" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1598574774922" />
+    <state width="1830" height="125" key="GridCell.Tab.0.left" timestamp="1598574774921">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="358" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598571558524" />
-    <state width="1830" height="358" key="GridCell.Tab.0.right" timestamp="1598571558524">
+    <state width="1830" height="125" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1598574774921" />
+    <state width="1830" height="125" key="GridCell.Tab.0.right" timestamp="1598574774922">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="358" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598571558524" />
+    <state width="1830" height="125" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598574774922" />
     <state x="393" y="167" key="SettingsEditor" timestamp="1598573199662">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>

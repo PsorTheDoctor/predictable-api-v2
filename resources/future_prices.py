@@ -7,7 +7,7 @@ from utils.machine_learning import *
 resource_fields = {
     'id': fields.Integer,
     'currency': fields.String,
-    'n_days_forward': fields.String,
+    'n_days_forward': fields.Integer,
     'value': fields.Float
 }
 
