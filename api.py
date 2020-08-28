@@ -18,12 +18,12 @@ def create_api(app):
     api.add_resource(SubscriberQty, '/subscribers-qty')
 
     api.add_resource(PastPriceList, '/past-prices/<string:currency>')
-    api.add_resource(PastPriceByDate, '/past-prices/<string:currency>&<string:date>')
+    api.add_resource(PastPrice, '/past-prices/<string:currency>&<string:date>')
 
     api.add_resource(FreshPrice, '/price/<string:currency>')
 
     api.add_resource(FuturePriceList, '/future-prices/<string:currency>')
-    api.add_resource(FuturePrice, '/future-prices/<string:currency>&<string:date>')
+    api.add_resource(FuturePrice, '/future-prices/<string:currency>&<int:n_days_forward>')
 
     api.add_resource(EntryList, '/entries-list/<int:qty>')
     api.add_resource(Entry, '/entries/<int:id>')

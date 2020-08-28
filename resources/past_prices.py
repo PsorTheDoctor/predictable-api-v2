@@ -22,7 +22,7 @@ class PastPriceList(Resource):
         return response
 
 
-class PastPriceByDate(Resource):
+class PastPrice(Resource):
     @marshal_with(resource_fields)
     def get(self, currency, date):
         response = PastPriceModel.query.filter_by(currency=currency).filter_by(date=date).first()
