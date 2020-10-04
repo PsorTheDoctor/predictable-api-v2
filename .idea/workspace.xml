@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba11f303-bfda-4d2c-8272-29839fd7a9c7" name="Default Changelist" comment="sth">
+    <list default="true" id="ba11f303-bfda-4d2c-8272-29839fd7a9c7" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/db.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -414,7 +413,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598273221090</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="sqlite -&gt; ODBC">
+      <created>1601842409772</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1601842409772</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TodoView">
@@ -434,7 +440,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="SQL declarative extension" />
     <MESSAGE value="pycoingecko integration" />
     <MESSAGE value="Sending welcome email" />
     <MESSAGE value="Enable CORS" />
@@ -459,7 +464,8 @@
     <MESSAGE value="news scrapper added" />
     <MESSAGE value="News api launched" />
     <MESSAGE value="sth" />
-    <option name="LAST_COMMIT_MESSAGE" value="sth" />
+    <MESSAGE value="sqlite -&gt; ODBC" />
+    <option name="LAST_COMMIT_MESSAGE" value="sqlite -&gt; ODBC" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="210" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598208060792">
@@ -470,10 +476,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="681" y="354" width="615" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1598274669987" />
-    <state x="532" y="95" width="912" height="915" key="CommitChangelistDialog2" timestamp="1601722400362">
+    <state x="532" y="95" width="912" height="915" key="CommitChangelistDialog2" timestamp="1601842409584">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="532" y="95" width="912" height="915" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1601722400362" />
+    <state x="532" y="95" width="912" height="915" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1601842409584" />
     <state x="776" y="323" width="424" height="484" key="FileChooserDialogImpl" timestamp="1598208046658">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -502,10 +508,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="393" y="167" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1601837114718" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1601835936887">
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1601842429779">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1601835936887" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1601842429779" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
