@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ba11f303-bfda-4d2c-8272-29839fd7a9c7" name="Default Changelist" comment="sth">
-      <change afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/future_prices.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/future_prices.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.py" beforeDir="false" afterPath="$PROJECT_DIR$/db.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,11 +24,6 @@
     <option name="CREATE_PULL_REQUEST_DEFAULT_BRANCH" value="master" />
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_USER" value="PsorTheDoctor" />
     <option name="CREATE_PULL_REQUEST_DEFAULT_REPO_NAME" value="predictable-api" />
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-75" />
-    <option name="width" value="1452" />
-    <option name="height" value="537" />
   </component>
   <component name="ProjectId" id="1gVlz77sU0kwULxjL427ZueW3dX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -477,14 +470,18 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="681" y="354" width="615" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1598274669987" />
-    <state x="532" y="95" width="912" height="915" key="CommitChangelistDialog2" timestamp="1598573121358">
+    <state x="532" y="95" width="912" height="915" key="CommitChangelistDialog2" timestamp="1601722400362">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="532" y="95" width="912" height="915" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1598573121358" />
+    <state x="532" y="95" width="912" height="915" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1601722400362" />
     <state x="776" y="323" width="424" height="484" key="FileChooserDialogImpl" timestamp="1598208046658">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="776" y="323" width="424" height="484" key="FileChooserDialogImpl/67.27.1853.1053@67.27.1853.1053" timestamp="1598208046658" />
+    <state x="830" y="452" key="Github.ShareDialog" timestamp="1601722337860">
+      <screen x="67" y="27" width="1853" height="1053" />
+    </state>
+    <state x="830" y="452" key="Github.ShareDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1601722337860" />
     <state width="1830" height="125" key="GridCell.Tab.0.bottom" timestamp="1598574774922">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -501,14 +498,14 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state width="1830" height="125" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1598574774922" />
-    <state x="393" y="167" key="SettingsEditor" timestamp="1598573199662">
+    <state x="393" y="167" key="SettingsEditor" timestamp="1601837114718">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="393" y="167" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1598573199662" />
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1598273227183">
+    <state x="393" y="167" key="SettingsEditor/67.27.1853.1053@67.27.1853.1053" timestamp="1601837114718" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1601835936887">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1598273227183" />
+    <state x="588" y="288" width="800" height="528" key="Vcs.Push.Dialog.v2/67.27.1853.1053@67.27.1853.1053" timestamp="1601835936887" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
