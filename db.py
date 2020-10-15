@@ -15,4 +15,5 @@ def init_db():
     import models.past_price
     import models.future_price
     import models.entry
+    import models.order
     Base.metadata.create_all(bind=engine)

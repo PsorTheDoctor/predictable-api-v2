@@ -4,7 +4,7 @@
     <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
       <option name="ignoredPackages">
         <value>
-          <list size="35">
+          <list size="36">
             <item index="0" class="java.lang.String" itemvalue="todolisthub-v2" />
             <item index="1" class="java.lang.String" itemvalue="visvmtagger" />
             <item index="2" class="java.lang.String" itemvalue="pynotion" />
@@ -40,8 +40,16 @@
             <item index="32" class="java.lang.String" itemvalue="tf2-initializer" />
             <item index="33" class="java.lang.String" itemvalue="automium-web" />
             <item index="34" class="java.lang.String" itemvalue="db" />
+            <item index="35" class="java.lang.String" itemvalue="pyodbc" />
           </list>
         </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+        </list>
       </option>
     </inspection_tool>
   </profile>

@@ -6,6 +6,7 @@ from resources.past_prices import *
 from resources.fresh_price import *
 from resources.future_prices import *
 from resources.entries import *
+from resources.orders import *
 from resources.mail_service import *
 
 
@@ -27,6 +28,9 @@ def create_api(app):
 
     api.add_resource(EntryList, '/entries-list/<int:qty>')
     api.add_resource(Entry, '/entries/<int:id>')
+
+    api.add_resource(OrderList, '/orders')
+    api.add_resource(Order, '/orders/<int:id>')
 
     api.add_resource(InstantMailService, '/mail/<string:recipient>')
     api.add_resource(AuthMailService, '/auth/<string:recipient>')
