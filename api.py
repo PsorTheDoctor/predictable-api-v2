@@ -29,8 +29,8 @@ def create_api(app):
     api.add_resource(EntryList, '/entries-list/<int:qty>')
     api.add_resource(Entry, '/entries/<int:id>')
 
-    api.add_resource(OrderList, '/orders')
-    api.add_resource(Order, '/orders/<int:id>')
+    api.add_resource(OrderList, '/orders-list/<int:owner_id>')
+    api.add_resource(Order, '/orders/<int:owner_id>')
 
     api.add_resource(InstantMailService, '/mail/<string:recipient>')
     api.add_resource(AuthMailService, '/auth/<string:recipient>')

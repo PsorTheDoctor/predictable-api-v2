@@ -9,14 +9,14 @@ class OrderModel(Base):
     id = Column(Integer, primary_key=True)
     currency = Column(String(30), nullable=False)
     amount = Column(Numeric, nullable=False)
-    purchasePrice = Column(Numeric, nullable=False)
-    ownerId = Column(String(16), nullable=False)
+    purchase_price = Column(Numeric, nullable=False)
+    owner_id = Column(String(16), nullable=False)
 
-    def __init__(self, currency=None, amount=None, purchasePrice=None, ownerId=None):
+    def __init__(self, currency=None, amount=None, purchase_price=None, owner_id=None):
         self.currency = currency
         self.amount = amount
-        self.purchasePrice = purchasePrice
-        self.ownerId = ownerId
+        self.purchase_price = purchase_price
+        self.owner_id = owner_id
 
     def __repr__(self):
         return '<Order {}>'.format(self.id)
