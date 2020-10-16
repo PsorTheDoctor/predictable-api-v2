@@ -5,8 +5,8 @@ from db import db_session
 
 parser = reqparse.RequestParser()
 parser.add_argument('currency', type=str, required=True)
-parser.add_argument('amount', type=float, required=True)
-parser.add_argument('purchase_price', type=float, required=True)
+parser.add_argument('amount', type=str, required=True)
+parser.add_argument('purchase_price', type=str, required=True)
 parser.add_argument('owner_id', type=str, required=True)
 
 
