@@ -8,8 +8,8 @@ class OrderModel(Base):
 
     id = Column(Integer, primary_key=True)
     currency = Column(String(30), nullable=False)
-    amount = Column(Numeric, nullable=False)
-    purchase_price = Column(Numeric, nullable=False)
+    amount = Column(String(30), nullable=False)
+    purchase_price = Column(String(30), nullable=False)
     owner_id = Column(String(16), nullable=False)
 
     def __init__(self, currency=None, amount=None, purchase_price=None, owner_id=None):

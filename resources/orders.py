@@ -13,8 +13,8 @@ parser.add_argument('owner_id', type=str, required=True)
 resource_fields = {
     'id': fields.Integer,
     'currency': fields.String,
-    'amount': fields.Float,
-    'purchase_price': fields.Float,
+    'amount': fields.String,
+    'purchase_price': fields.String,
     'owner_id': fields.String
 }
 
