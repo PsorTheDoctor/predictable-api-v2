@@ -24,8 +24,6 @@ class OrderList(Resource):
     def get(self, owner_id):
         return OrderModel.query.filter_by(owner_id=owner_id).all()
 
-
-class Order(Resource):
     @marshal_with(resource_fields)
     def post(self):
         args = parser.parse_args()
@@ -37,6 +35,8 @@ class Order(Resource):
         db_session.commit()
         return '', 201
 
+
+class Order(Resource):
     @marshal_with(resource_fields)
     def delete(self, order_id):
         order = OrderModel.query.filter_by(id=order_id).first()

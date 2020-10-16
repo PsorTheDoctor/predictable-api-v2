@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ba11f303-bfda-4d2c-8272-29839fd7a9c7" name="Default Changelist" comment="Deploy orders to heroku">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.db" beforeDir="false" afterPath="$PROJECT_DIR$/database.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/order.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/order.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/orders.py" beforeDir="false" afterPath="$PROJECT_DIR$/resources/orders.py" afterDir="false" />
-    </list>
+    <list default="true" id="ba11f303-bfda-4d2c-8272-29839fd7a9c7" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -438,7 +432,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602801130070</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="Deploy orders fixed">
+      <created>1602803410938</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1602803410938</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TodoView">
@@ -458,7 +459,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="Sending welcome email" />
     <MESSAGE value="Enable CORS" />
     <MESSAGE value="POST requests done" />
     <MESSAGE value="cors &amp; welcome e-mails" />
@@ -483,7 +483,8 @@
     <MESSAGE value="sth" />
     <MESSAGE value="sqlite -&gt; ODBC" />
     <MESSAGE value="Deploy orders to heroku" />
-    <option name="LAST_COMMIT_MESSAGE" value="Deploy orders to heroku" />
+    <MESSAGE value="Deploy orders fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Deploy orders fixed" />
   </component>
   <component name="WindowStateProjectService">
     <state x="451" y="210" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598208060792">
@@ -494,10 +495,10 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="681" y="354" width="615" height="396" key="#com.intellij.fileTypes.FileTypeChooser/67.27.1853.1053@67.27.1853.1053" timestamp="1598274669987" />
-    <state x="532" y="95" width="912" height="915" key="CommitChangelistDialog2" timestamp="1602801191578">
+    <state x="532" y="95" width="912" height="915" key="CommitChangelistDialog2" timestamp="1602803410770">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state x="532" y="95" width="912" height="915" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1602801191578" />
+    <state x="532" y="95" width="912" height="915" key="CommitChangelistDialog2/67.27.1853.1053@67.27.1853.1053" timestamp="1602803410770" />
     <state x="776" y="323" width="424" height="484" key="FileChooserDialogImpl" timestamp="1598208046658">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
@@ -506,22 +507,22 @@
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
     <state x="830" y="452" key="Github.ShareDialog/67.27.1853.1053@67.27.1853.1053" timestamp="1601722337860" />
-    <state width="1830" height="147" key="GridCell.Tab.0.bottom" timestamp="1602803141075">
+    <state width="1830" height="147" key="GridCell.Tab.0.bottom" timestamp="1602803204837">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="147" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1602803141075" />
-    <state width="1830" height="147" key="GridCell.Tab.0.center" timestamp="1602803141075">
+    <state width="1830" height="147" key="GridCell.Tab.0.bottom/67.27.1853.1053@67.27.1853.1053" timestamp="1602803204837" />
+    <state width="1830" height="147" key="GridCell.Tab.0.center" timestamp="1602803204837">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="147" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1602803141075" />
-    <state width="1830" height="147" key="GridCell.Tab.0.left" timestamp="1602803141074">
+    <state width="1830" height="147" key="GridCell.Tab.0.center/67.27.1853.1053@67.27.1853.1053" timestamp="1602803204837" />
+    <state width="1830" height="147" key="GridCell.Tab.0.left" timestamp="1602803204836">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="147" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1602803141074" />
-    <state width="1830" height="147" key="GridCell.Tab.0.right" timestamp="1602803141075">
+    <state width="1830" height="147" key="GridCell.Tab.0.left/67.27.1853.1053@67.27.1853.1053" timestamp="1602803204836" />
+    <state width="1830" height="147" key="GridCell.Tab.0.right" timestamp="1602803204837">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
-    <state width="1830" height="147" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1602803141075" />
+    <state width="1830" height="147" key="GridCell.Tab.0.right/67.27.1853.1053@67.27.1853.1053" timestamp="1602803204837" />
     <state x="393" y="167" key="SettingsEditor" timestamp="1601837114718">
       <screen x="67" y="27" width="1853" height="1053" />
     </state>
