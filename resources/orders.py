@@ -25,12 +25,12 @@ class OrderList(Resource):
         return OrderModel.query.filter_by(owner_id=owner_id).all()
 
     @marshal_with(resource_fields)
-    def post(self):
+    def post(self, owner_id):
         args = parser.parse_args()
         order = OrderModel(currency=args['currency'],
                            amount=args['amount'],
                            purchase_price=args['purchase_price'],
-                           owner_id=args['owner_id'])
+                           owner_id=owner_id)  # args['owner_id']
         db_session.add(order)
         db_session.commit()
         return '', 201

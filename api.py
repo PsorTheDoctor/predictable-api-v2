@@ -14,9 +14,9 @@ def create_api(app):
     api = Api(app)
     api.add_resource(ServerStatus, '/', '/ping')
 
-    api.add_resource(SubscriberList, '/subscribers')
-    api.add_resource(Subscriber, '/subscribers/<string:email>')
-    api.add_resource(SubscriberQty, '/subscribers-qty')
+    api.add_resource(SubscriberList, '/subscribers')  # get, post
+    api.add_resource(Subscriber, '/subscribers/<string:email>')  # get, delete
+    api.add_resource(SubscriberQty, '/subscribers-qty')  # get
 
     api.add_resource(PastPriceList, '/past-prices/<string:currency>')
     api.add_resource(PastPrice, '/past-prices/<string:currency>&<string:date>')
@@ -29,8 +29,7 @@ def create_api(app):
     api.add_resource(EntryList, '/entries-list/<int:qty>')
     api.add_resource(Entry, '/entries/<int:id>')
 
-    api.add_resource(OrderList, '/orders-list/<int:owner_id>')  # for get requests
-    api.add_resource(OrderList, '/orders-list')  # for post requests
+    api.add_resource(OrderList, '/orders-list/<int:owner_id>')  # for get, post requests
     api.add_resource(Order, '/orders/<int:owner_id>')  # for delete
 
     api.add_resource(InstantMailService, '/mail/<string:recipient>')
