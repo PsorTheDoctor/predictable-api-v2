@@ -8,15 +8,15 @@ class EntryModel(Base):
 
     id = Column(Integer, primary_key=True)
     header = Column(String(200), nullable=False)
+    publisher = Column(String(30), nullable=False)
     link = Column(String(200), nullable=False)
     date = Column(String(30), nullable=False)
-    tag = Column(String(30))
 
-    def __init__(self, header=None, link=None, date=None, tag=None):
+    def __init__(self, header=None, publisher=None, link=None, date=None):
         self.header = header
+        self.publisher = publisher
         self.link = link
         self.date = date
-        self.tag = tag
 
     def __repr__(self):
-        return '<News {} {}>'.format(self.tag, self.id)
+        return '<News {}>'.format(self.id)

@@ -7,9 +7,9 @@ from utils.google_news import *
 resource_fields = {
     'id': fields.Integer,
     'header': fields.String,
+    'publisher': fields.String,
     'link': fields.String,
     'date': fields.String,
-    'tag': fields.String
 }
 
 
@@ -34,9 +34,10 @@ class EntryList(Resource):
         # Create some new entries for every method call
         for idx in range(qty):
             header = get_header(idx)
+            publisher = get_publisher(idx)
             link = get_link(idx)
-            date = get_published_date(idx)
-            entry = EntryModel(header, link, date)
+            date = get_publish_date(idx)
+            entry = EntryModel(header, publisher, link, date)
             db_session.add(entry)
             db_session.commit()
 

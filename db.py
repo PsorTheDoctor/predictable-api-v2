@@ -1,8 +1,15 @@
+import pyodbc
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
-engine = create_engine('sqlite:///database.db', convert_unicode=True)
+
+engine = create_engine('mssql+pyodbc://predictable-id:84n4n4.P13' +
+                       '@predictable-server2.database.windows.net,1433/' +
+                       'predictable-db?' +
+                       'driver=ODBC+Driver+17+for+SQL+Server}',
+                       convert_unicode=True)
+
 db_session = scoped_session(sessionmaker(autocommit=False,
                                          autoflush=False,
                                          bind=engine))
