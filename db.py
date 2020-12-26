@@ -1,18 +1,16 @@
 import pyodbc
-import urllib
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
-params = urllib.parse.quote_plus(
-    'Driver={ODBC Driver 13 for SQL Server};' +
-    'Server=tcp:predictable-server2.database.windows.net,1433;' +
-    'Database=predictable-db' +
-    'Uid=predictable-id' +
-    'Pwd=84n4n4.P13' +
-    'Encrypt=yes;' +
-    'TrustServerCertificate=no;' +
-    'Connection Timeout=30;')
+params = 'Driver={ODBC Driver 13 for SQL Server};' \
+    'Server=tcp:predictable-server2.database.windows.net,1433;' \
+    'Database=predictable-db' \
+    'Uid=predictable-id' \
+    'Pwd=84n4n4.P13' \
+    'Encrypt=yes;' \
+    'TrustServerCertificate=no;' \
+    'Connection Timeout=30;'
 
 conn_str = 'mssql+pyodbc:///?odbc_connect=' + params
 engine = create_engine(conn_str)
