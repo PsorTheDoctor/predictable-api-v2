@@ -7,7 +7,7 @@ news = api.search('blockchain')
 def get_header(idx):
     title = news['entries'][idx]['title']
     split = title.split(' - ')
-    header = None
+    header = ''
     for txt in range(len(split) - 1):
         header += txt
     return header
