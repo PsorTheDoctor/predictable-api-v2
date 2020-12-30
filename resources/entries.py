@@ -8,8 +8,10 @@ resource_fields = {
     'id': fields.Integer,
     'header': fields.String,
     'publisher': fields.String,
+    'content': fields.String,
     'link': fields.String,
     'date': fields.String,
+    'img': fields.String
 }
 
 
@@ -35,10 +37,12 @@ class EntryList(Resource):
         for idx in range(qty):
             header = get_header(idx)
             publisher = get_publisher(idx)
+            content = get_content(idx)
             link = get_link(idx)
-            date = get_publish_date(idx)
-            entry = EntryModel(header, publisher, link, date)
+            n_days_ago = get_num_days_ago(idx)
+            img = get_base64_img()
+            entry = EntryModel(header, publisher, content, link, n_days_ago, img)
             db_session.add(entry)
             db_session.commit()
 
-        return EntryModel.query.limit(10).all()
+        return EntryModel.query.limit(qty).all()

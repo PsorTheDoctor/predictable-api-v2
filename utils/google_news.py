@@ -1,28 +1,34 @@
-from pygooglenews import GoogleNews
+from GoogleNews import GoogleNews
 
-api = GoogleNews(lang='en')
-news = api.search('blockchain')
+news = GoogleNews(lang='en')
+news.search('blockchain')
+result = news.result()
 
 
 def get_header(idx):
-    title = news['entries'][idx]['title']
+    title = result[idx]['title']
     split = title.split(' - ')
-    header = None
+    header = ''
     for txt in range(len(split) - 1):
         header += txt
     return header
 
 
 def get_publisher(idx):
-    title = news['entries'][idx]['title']
-    split = title.split(' - ')
-    publisher = split[len(split) - 1]
-    return publisher
+    return result[idx]['media']
+
+
+def get_content(idx):
+    return result[idx]['desc']
 
 
 def get_link(idx):
-    return news['entries'][idx]['link']
+    return result[idx]['link']
 
 
-def get_publish_date(idx):
-    return news['entries'][idx]['published']
+def get_num_days_ago(idx):
+    return result[idx]['date']
+
+
+def get_base64_img(idx):
+    return result[idx]['img']
