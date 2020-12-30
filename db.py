@@ -3,12 +3,17 @@ from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
 
+params = 'Driver={ODBC Driver 13 for SQL Server};' \
+    'Server=tcp:predictable-server2.database.windows.net,1433;' \
+    'Database=predictable-db' \
+    'Uid=predictable-id' \
+    'Pwd=84n4n4.P13' \
+    'Encrypt=yes;' \
+    'TrustServerCertificate=no;' \
+    'Connection Timeout=30;'
 
-engine = create_engine('mssql+pyodbc://predictable-id:84n4n4.P13' +
-                       '@predictable-server2.database.windows.net,1433/' +
-                       'predictable-db?' +
-                       'driver=ODBC+Driver+17+for+SQL+Server}',
-                       convert_unicode=True)
+conn_str = 'mssql+pyodbc:///?odbc_connect=' + params
+engine = create_engine(conn_str)
 
 db_session = scoped_session(sessionmaker(autocommit=False,
                                          autoflush=False,
