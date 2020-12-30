@@ -9,8 +9,8 @@ def get_header(idx):
     title = result[idx]['title']
     split = title.split(' - ')
     header = ''
-    for txt in range(len(split) - 1):
-        header += txt
+    for i in range(len(split) - 1):
+        header += split[i]
     return header
 
 
