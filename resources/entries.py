@@ -40,7 +40,7 @@ class EntryList(Resource):
             content = get_content(idx)
             link = get_link(idx)
             n_days_ago = get_num_days_ago(idx)
-            img = get_base64_img()
+            img = get_base64_img(idx)
             entry = EntryModel(header, publisher, content, link, n_days_ago, img)
             db_session.add(entry)
             db_session.commit()
